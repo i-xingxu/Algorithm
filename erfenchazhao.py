@@ -19,6 +19,6 @@ def erfen_search(lst,start,end,key):
 numbers=[1,2,2,2,2,3,4,5,6,7,8,8,8,9,9,10]
 # numbers=range(1,100)
 
-res=erfen_search(numbers,0,len(numbers),10)
+res=erfen_search(numbers,0,len(numbers),2)
 print(res)
 
