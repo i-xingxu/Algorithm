@@ -1,4 +1,4 @@
-#coding=utf-8
+# coding=utf-8
 
 def maopao_sort(lists):
     '''
@@ -9,15 +9,15 @@ def maopao_sort(lists):
 
     '''
     try:
-        for i in range(0,len(lists)):
-            for j in range(i,len(lists)-1):
-                if lists[i]>lists[j+1]:
-                    lists[i],lists[j+1]=lists[j+1],lists[i]
+        for i in range(0, len(lists)):
+            for j in range(i, len(lists) - 1):
+                if lists[i] > lists[j + 1]:
+                    lists[i], lists[j + 1] = lists[j + 1], lists[i]
         return lists
     except Exception as e:
         print(e)
 
 
-num=[3,5,6,7,2,8,7,10,8,1.100,99,3,4,2222]
-a=maopao_sort(num)
+num = [3, 5, 6, 7, 2, 8, 7, 10, 8, 1.100, 99, 3, 4, 2222]
+a = maopao_sort(num)
 print(a)
